@@ -1,12 +1,12 @@
 extension:
-  name: quack
-  description: Provides a hello world example demo
+  name: quack-zig
+  description: Provides a zig hello world example demo
   version: 0.0.1
-  language: C++
+  language: Zig
   build: cmake
   license: MIT
   maintainers:
-    - hannes
+    - idk
 
   # (Optional) param that specifies required extra toolchains
   requires_toolchains: "rust"
@@ -21,6 +21,6 @@ repo:
 
 docs:
   hello_world: |
-    SELECT quack('world');
+    SELECT quack('world asdf');
   extended_description: |
-    The quack extension is based on DuckDB's [Extension Template](https://github.com/duckdb/extension-template/), and it's a great starting point to get started building more advanced extensions.
+    The quack extension is soon no longer based on DuckDB's [Extension Template](https://github.com/duckdb/extension-template/), and it's a great starting point to get started building more advanced extensions.
