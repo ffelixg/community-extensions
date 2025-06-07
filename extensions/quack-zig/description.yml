@@ -16,8 +16,8 @@ extension:
   custom_toolchain_script: true
 
 repo:
-  github: duckdb/extension-template
-  ref: 86fc51202c4dff2333c8e36ec79c245d101099de
+  github: ffelixg/quack-zig
+  ref: a0349457d2ec42d6741977879a357816fb3c7ce6
 
 docs:
   hello_world: |
